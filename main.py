@@ -1,6 +1,12 @@
 from typing import Optional
-
+import joblib
+from pydantic import BaseModel
 from fastapi import FastAPI
+
+model = joblib.load('DBSCAN_model.joblib')
+# scaler = joblib.load('Models/scaler.joblib')
+
+# model=pickle.load(open('train_model.sav','rb'))
 
 app = FastAPI()
 
