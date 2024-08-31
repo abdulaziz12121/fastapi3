@@ -1,3 +1,4 @@
+fastapi[all]
 FastAPI== 2.1.4
 Pydantic==1.26.4
 Joblib==3.7.5
