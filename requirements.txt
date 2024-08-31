@@ -1,5 +1,5 @@
 fastapi[all]
-Pydantic==1.26.4
-Joblib==3.7.5
-Scikit-learn==0.13.2
-NumPy==1.4.2
+Pydantic
+Joblib
+Scikit-learn
+NumPy
