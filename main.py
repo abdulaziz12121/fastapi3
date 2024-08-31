@@ -7,7 +7,7 @@ app = FastAPI()
 
 # Load the saved KMeans model and scaler1
 dbscan_model = joblib.load('DBSCAN_model1.joblib')
-DBSCAN_scaler1 = joblib.load('scaler1_means1.joblib')
+DBSCAN_scaler1 = joblib.load('scaler1.joblib')
 
 app = FastAPI()
 
